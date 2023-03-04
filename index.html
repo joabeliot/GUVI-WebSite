@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+  <head>
+    <title>REGISTER</title>
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+    />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/register.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+  <body>
+    <div class="col-sm-6 col-sm-offset-3" data-bs-theme="dark">
+      <h1>REGISTER</h1>
+
+      <form>
+        <div id="name-group" class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Full Name"
+          />
+        </div>
+
+        <div id="email-group" class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="email@example.com"
+          />
+        </div>
+
+        <div id="pass-group" class="form-group">
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="pass"
+            name="pass"
+          />
+        </div>
+        <div id="dob-group" class="form-group">
+          <label for="dob">Date Of Birth</label>
+          <input
+            type="date"
+            class="form-control"
+            id="dob"
+            name="dob"
+          />
+        </div>
+        <div id="age-group" class="form-group">
+          <label for="age">Age</label>
+          <input
+            type="number"
+            class="form-control"
+            id="age"
+            name="age"
+          />
+        </div>
+        <div id="contact-group" class="form-group">
+          <label for="contact">Contact</label>
+          <input
+            type="number"
+            class="form-control"
+            id="num"
+            name="num"
+          />
+        </div>
+        <button type="submit" class="btn btn-success">
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

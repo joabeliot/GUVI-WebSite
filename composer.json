@@ -1,0 +1,11 @@
+{
+    "require": {
+        "jenssegers/mongodb": "^2.3",
+        "mongodb/mongodb": "^1.15"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
